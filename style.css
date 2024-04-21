@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    flex: 1;
+    /*possibly add here flex-dir: column? dunno but saving it in case i forget*/
+}
+
+.section1 {
+    background-color: rgb(167, 92, 48);
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex: 1;
+}
