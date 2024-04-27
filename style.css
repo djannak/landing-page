@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Garamond, 'Times New Roman', Times, serif
+    /* will eventually look further into the fonts + how to import */
 }
 
 body {
     display: flex;
-    flex: 1;
     flex-direction: column;
     /*possibly add here flex-dir: column? dunno but saving it in case i forget*/
 }
@@ -15,10 +16,6 @@ body {
 .section1 {
     background-color: rgb(167, 92, 48);
     width: 100%;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
     padding: 16px;
 }
 
@@ -40,6 +37,7 @@ body {
 .c1right {
     margin-left: auto;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .clickme {
@@ -62,15 +60,15 @@ body {
     margin-left: 70px;
     margin-right: 70px;
     margin-top: 50px;
-    gap: 16px;
+    gap: 24px;
 }
 
 .container2-1{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    flex-basis: 30%;
-    margin-left: 70px;
+    flex-basis: 50%;
+    margin-left: 30vh;
     gap: 16px;
 }
 
@@ -88,6 +86,32 @@ body {
 
 .container2-2 {
     display: flex;
-    justify-content: right;
-    margin-left: auto;
+    flex-basis: 50%;
+}
+
+.placeholder1 {
+    width: 70%;
+    height: 80%;
+
+}
+
+/*now going for section 2, everything above belongs to section 1 */
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.s2title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-top: 35px;
+    
+}
+
+.s2container2 {
+    display: flex;
 }
