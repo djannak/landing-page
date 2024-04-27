@@ -11,11 +11,13 @@ body {
     /*possibly add here flex-dir: column? dunno but saving it in case i forget*/
 }
 
+
 .section1 {
     background-color: rgb(167, 92, 48);
     width: 100%;
-    height: 30vh;
+    height: 50vh;
     display: flex;
+    flex-direction: column;
     flex: 1;
     padding: 16px;
 }
@@ -23,9 +25,69 @@ body {
 .container1 {
     display: flex;
     flex: 1;
+    align-items: center;
     gap: 16px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.c1header {
+    font-size: 24px;
+    font-weight: bolder;
 }
 
 .c1right {
+    margin-left: auto;
+    font-size: 18px;
+}
+
+.clickme {
+    background-color: rgb(225, 156, 116);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.container2 {
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 50px;
+    gap: 16px;
+}
+
+.container2-1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    margin-left: 70px;
+    gap: 16px;
+}
+
+.ctitle {
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+}
+
+.ctxt {
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+}
+
+.container2-2 {
+    display: flex;
+    justify-content: right;
     margin-left: auto;
 }
