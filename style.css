@@ -7,6 +7,7 @@
 body {
     display: flex;
     flex: 1;
+    flex-direction: column;
     /*possibly add here flex-dir: column? dunno but saving it in case i forget*/
 }
 
@@ -16,4 +17,15 @@ body {
     height: 30vh;
     display: flex;
     flex: 1;
+    padding: 16px;
+}
+
+.container1 {
+    display: flex;
+    flex: 1;
+    gap: 16px;
+}
+
+.c1right {
+    margin-left: auto;
 }
