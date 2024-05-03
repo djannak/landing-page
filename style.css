@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bitter:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Garamond, 'Times New Roman', Times, serif
+    font-family: Arvo;
     /* will eventually look further into the fonts + how to import */
 }
 
@@ -132,7 +135,24 @@ section 3 stuff starts here */
     background-color: rgb(167, 92, 48);   
 }
 
+.s3txt {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 4em;
+}
 
+.s3txtauthor {
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 4em;
+    margin-left: 4em;
+    margin-right: 4em;
+    text-align: right;
+    
+}
 
 /* stuff for the 4th section  */
 
@@ -155,6 +175,8 @@ section 3 stuff starts here */
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 5em;
     background-color: rgb(167, 92, 48);
-    height: 10%;
+
+    font-size: 20px;
 }
