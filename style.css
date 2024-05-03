@@ -134,18 +134,18 @@ section 3 stuff starts here */
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 10em;
+    margin-right: 10em;
     margin-top: 4em;
     margin-bottom: 1em;
 }
 
 .quoteauthor {
     font-weight: bold;
-    font-size: 26px;
+    font-size: 20px;
     margin-bottom: 4em;
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 10em;
+    margin-right: 20em;
     text-align: right;
     
 }
