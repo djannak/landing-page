@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bitter:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bitter:ital,wght@0,100..900;1,100..900&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arvo;
+    font-family: Montagu Slab;
     /* will eventually look further into the fonts + how to import */
 }
 
@@ -17,9 +16,8 @@ body {
 
 
 .section1 {
-    background-color: rgb(167, 92, 48);
+    background-color: rgb(185, 102, 54);
     width: 100%;
-    padding: 16px;
 }
 
 .container1 {
@@ -27,20 +25,22 @@ body {
     flex-wrap: wrap;
     align-items: center;
     gap: 16px;
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-top: 2em;
+    margin-bottom: 4em;
 }
 
-.c1header {
+.catsnco {
     font-size: 24px;
     font-weight: bolder;
+    margin-left: 5em;
 }
 
-.c1right {
+.catsncolinks {
+    display: flex;
+    gap: 2em;
     margin-left: auto;
     font-size: 18px;
-    font-weight: bold;
+    margin-right: 5em;
 }
 
 .clickme {
@@ -61,17 +61,14 @@ body {
 
 .container2 {
     display: flex;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-top: 50px;
-    gap: 24px;
+    gap: 5em;
 }
 
 .container2-1{
     display: flex;
     flex-direction: column;
-    flex-basis: 50%;
-    gap: 24px;
+    margin-left: 5em;
+    gap: 1em;
 }
 
 .ctitle {
@@ -87,9 +84,7 @@ body {
 }
 
 .container2-2 {
-    display: flex;
-    flex-basis: 50%;
-    flex-shrink: 0;
+width: 50%;
 }
 
 .placeholder1 {
@@ -135,21 +130,22 @@ section 3 stuff starts here */
     background-color: rgb(167, 92, 48);   
 }
 
-.s3txt {
+.quote {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    margin-left: 4em;
-    margin-right: 4em;
+    margin-left: 5em;
+    margin-right: 5em;
     margin-top: 4em;
+    margin-bottom: 1em;
 }
 
-.s3txtauthor {
+.quoteauthor {
     font-weight: bold;
     font-size: 26px;
     margin-bottom: 4em;
-    margin-left: 4em;
-    margin-right: 4em;
+    margin-left: 5em;
+    margin-right: 5em;
     text-align: right;
     
 }
