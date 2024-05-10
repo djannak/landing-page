@@ -26,7 +26,7 @@ body {
     align-items: center;
     gap: 16px;
     margin-top: 2em;
-    margin-bottom: 4em;
+    margin-bottom: 5em;
 }
 
 .catsnco {
@@ -44,31 +44,40 @@ body {
 }
 
 .clickme {
-    background-color: rgb(225, 156, 116);
-    color: white;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    border: none;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
     font-weight: bold;
-    border-radius: 12px;
-    cursor: pointer;
-    width: 200px;
-}
-
-.container2 {
+    text-transform: uppercase;
+    color: white;
     display: flex;
-    gap: 5em;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(156, 80, 36);
+    width: 20em;
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid white;
 }
 
-.container2-1{
+.catcontent {
+    display: flex;
+    gap: 2em;
+    margin-bottom: 5em;
+}
+
+.catcontentl{
     display: flex;
     flex-direction: column;
-    margin-left: 5em;
-    gap: 1em;
+    justify-content: center;
+    gap: 2em;
+}
+
+.catcontentr {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.placeholder1 {
+    width: 30%;
+    border-radius: 15px;
 }
 
 .ctitle {
@@ -81,17 +90,6 @@ body {
     font-size: 18px;
     color: white;
     text-align: justify;
-}
-
-.container2-2 {
-width: 50%;
-}
-
-.placeholder1 {
-    width: 70%;
-    height: 80%;
-    border-radius: 15px;
-
 }
 
 /*now going for section 2, everything above belongs to section 1 */
@@ -116,11 +114,22 @@ width: 50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    gap: 35px;
+    margin-bottom: 5em;
 }
 .s2c2img {
-    width: 100px;
+    width: 150px;
     border-radius: 15px;
+}
+
+.img1info, .img2info, .img3info, .img4info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 150px;
+    gap: 15px;
+    text-align: center;
+    align-items: center;
 }
 
 /* 
@@ -186,7 +195,7 @@ section 3 stuff starts here */
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #724418;
+    background-color: #5b330f;
     width: 10em;
     border-radius: 10px;
     border: 2px solid white;
