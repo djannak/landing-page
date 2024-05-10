@@ -41,12 +41,14 @@ body {
     margin-left: auto;
     font-size: 18px;
     margin-right: 5em;
+    cursor: pointer;
 }
 
 .clickme {
+    cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,41 +56,38 @@ body {
     width: 20em;
     padding: 1em;
     border-radius: 10px;
-    border: 2px solid white;
+    border: 2px solid rgb(0, 0, 0);
 }
 
 .catcontent {
     display: flex;
-    gap: 2em;
+    gap: 15em;
     margin-bottom: 5em;
+    justify-content: center;
 }
 
 .catcontentl{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 2em;
+    gap: 1em;
 }
 
 .catcontentr {
-    display: flex;
-    flex-shrink: 0;
+display: flex;
 }
 
 .placeholder1 {
-    width: 30%;
-    border-radius: 15px;
+width: 10em;
+border-radius: 15px;
 }
 
 .ctitle {
     font-size: 48px;
     font-weight: bolder;
-    color: white;
 }
 
 .ctxt {
     font-size: 18px;
-    color: white;
     text-align: justify;
 }
 
@@ -136,7 +135,7 @@ body {
 section 3 stuff starts here */
 
 .section3 {
-    background-color: rgb(167, 92, 48);   
+    background-color: rgb(169, 87, 40);  
 }
 
 .quote {
@@ -171,7 +170,7 @@ section 3 stuff starts here */
 .s4container {
     display: flex;
     color: white;
-    background-color: #724418;
+    background-color: rgb(149, 72, 28);  
     border-radius: 10px;
     padding: 4em;
     gap: 4em;
@@ -189,13 +188,14 @@ section 3 stuff starts here */
 }
 
 .c4button {
+    cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #5b330f;
+    background-color: rgb(136, 63, 21);
     width: 10em;
     border-radius: 10px;
     border: 2px solid white;
@@ -210,7 +210,7 @@ section 3 stuff starts here */
     justify-content: center;
     align-items: center;
     height: 5em;
-    background-color: rgb(167, 92, 48);
+    background-color: rgb(128, 61, 22);
 
     font-size: 20px;
 }

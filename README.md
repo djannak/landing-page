@@ -1,3 +1,4 @@
 the odin project - create landing page using flexbox
 
-xray placeholder pic - Photo by Pixabay: https://www.pexels.com/photo/hand-x-ray-result-207496/
+testing knowledge of basic css + html + flexbox
+used my cat as the placeholder picture because why not
