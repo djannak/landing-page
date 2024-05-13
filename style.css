@@ -14,9 +14,10 @@ body {
     /*possibly add here flex-dir: column? dunno but saving it in case i forget*/
 }
 
+/* section 1 starts here */
 
 .section1 {
-    background-color: rgb(185, 102, 54);
+    background-color: rgb(128, 61, 22);
     width: 100%;
 }
 
@@ -30,16 +31,19 @@ body {
 }
 
 .catsnco {
-    font-size: 24px;
+    font-size: 34px;
+    color: white;
     font-weight: bolder;
-    margin-left: 5em;
+    margin-left: 2.5em;
 }
 
 .catsncolinks {
+    color: white;
     display: flex;
     gap: 2em;
     margin-left: auto;
     font-size: 18px;
+    font-weight: bold;
     margin-right: 5em;
     cursor: pointer;
 }
@@ -48,15 +52,15 @@ body {
     cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
-    color: rgb(0, 0, 0);
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(156, 80, 36);
+    background-color: rgb(147, 75, 33);
     width: 20em;
     padding: 1em;
     border-radius: 10px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
 }
 
 .catcontent {
@@ -70,6 +74,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1em;
+    color: white;
 }
 
 .catcontentr {
@@ -135,7 +140,7 @@ border-radius: 15px;
 section 3 stuff starts here */
 
 .section3 {
-    background-color: rgb(169, 87, 40);  
+    background-color: rgb(128, 61, 22);
 }
 
 .quote {
@@ -146,6 +151,7 @@ section 3 stuff starts here */
     margin-right: 10em;
     margin-top: 4em;
     margin-bottom: 1em;
+    color: white;
 }
 
 .quoteauthor {
@@ -155,6 +161,7 @@ section 3 stuff starts here */
     margin-left: 10em;
     margin-right: 20em;
     text-align: right;
+    color: white;
     
 }
 
@@ -211,6 +218,6 @@ section 3 stuff starts here */
     align-items: center;
     height: 5em;
     background-color: rgb(128, 61, 22);
-
+color: white;
     font-size: 20px;
 }
