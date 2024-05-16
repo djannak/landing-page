@@ -61,7 +61,13 @@ body {
     padding: 1em;
     border-radius: 10px;
     border: 2px solid rgb(255, 255, 255);
+    transition-duration: 0.4s;
 }
+
+.clickme:hover {
+    background-color: rgb(181, 105, 61);
+    color: white;
+  }
 
 .catcontent {
     display: flex;
@@ -121,6 +127,7 @@ border-radius: 15px;
     gap: 35px;
     margin-bottom: 5em;
 }
+
 .s2c2img {
     width: 150px;
     border-radius: 15px;
@@ -207,8 +214,13 @@ section 3 stuff starts here */
     border-radius: 10px;
     border: 2px solid white;
     margin-left: auto;
+    transition-duration: 0.4s;
 }
 
+.c4button:hover {
+    background-color: rgb(181, 105, 61);
+    color: white;
+  }
 
 /* footer info goes here  */
 
