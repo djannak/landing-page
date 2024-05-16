@@ -94,6 +94,7 @@ display: flex;
 .placeholder1 {
 width: 10em;
 border-radius: 15px;
+border: 2px solid white;
 }
 
 .ctitle {
@@ -135,6 +136,7 @@ border-radius: 15px;
 .s2c2img {
     width: 150px;
     border-radius: 15px;
+    border: 3px solid rgb(0, 0, 0);;
 }
 
 .img1info, .img2info, .img3info, .img4info {
