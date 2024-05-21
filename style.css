@@ -19,6 +19,7 @@ body {
 .section1 {
     background-color: rgb(128, 61, 22);
     width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(128, 61, 22, 0.29), 0 6px 20px 0 rgba(128, 61, 22, 0.29);
 }
 
 .container1 {
@@ -45,14 +46,19 @@ body {
     font-size: 18px;
     font-weight: bold;
     margin-right: 5em;
-    cursor: pointer;
-    transition-duration: 0.4s;
 }
 
-.catsncolinks:hover {
+.mycats, .yourcats, .ourcats {
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.mycats:hover, .yourcats:hover, .ourcats:hover {
     color: black;
 }
+
 .clickme {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
@@ -75,8 +81,10 @@ body {
 
 .catcontent {
     display: flex;
-    gap: 15em;
+    flex-wrap: wrap;
+    gap: 5em;
     margin-bottom: 5em;
+    padding: 15px;
     justify-content: center;
 }
 
@@ -93,8 +101,10 @@ display: flex;
 
 .placeholder1 {
 width: 10em;
+height: 10em;
+border: 5px white;
 border-radius: 15px;
-border: 2px solid white;
+box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .ctitle {
@@ -153,10 +163,16 @@ border: 2px solid white;
 section 3 stuff starts here */
 
 .section3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     background-color: rgb(128, 61, 22);
+    width: 100%;
 }
 
 .quote {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
@@ -189,6 +205,7 @@ section 3 stuff starts here */
 
 .s4container {
     display: flex;
+    flex-wrap: wrap;
     color: white;
     background-color: rgb(149, 72, 28); 
     border: 3px solid rgb(127, 57, 17); 
@@ -210,14 +227,17 @@ section 3 stuff starts here */
 
 .c4button {
     cursor: pointer;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-weight: bold;
     text-transform: uppercase;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
     background-color: rgb(136, 63, 21);
     width: 10em;
+    height: 5em;
     border-radius: 10px;
     border: 2px solid white;
     margin-left: auto;
@@ -232,9 +252,11 @@ section 3 stuff starts here */
 /* footer info goes here  */
 
 .footer {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     height: 5em;
     background-color: rgb(128, 61, 22);
 color: white;
